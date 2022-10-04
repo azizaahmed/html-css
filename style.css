@@ -1,0 +1,133 @@
+.color {
+    color: hsl(243, 87%, 12%);
+    color: hsl(238, 22%, 44%);
+    color: hsl(224, 93%, 58%);
+    color: hsl(170, 45%, 43%);
+    color: hsl(240, 75%, 98%);
+    color: hsl(0, 0%, 75%);
+}
+/* general styles */
+body {
+    margin: 0;
+    font-family: Open-Sans;
+    font-weight: 500;
+}
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, a, li {
+    font-family: Raleway;
+    font-weight: 700;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+input {
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 3px;
+}
+button {
+    border-radius: 3px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    padding: 15px;
+    border: none;
+    width: 150px;
+    margin-left: 3px;
+}
+/* section 1 */
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.section-1 ul li {
+    display: inline-block;
+    margin: 5px;
+    color: hsl(243, 87%, 12%);
+}
+/* section 2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.section-2>div {
+    width: 50%;
+}
+/* section 3 */
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(240, 75%, 98%);
+    padding: 20px 30px;
+}
+
+.section-3>div {
+    flex-grow: 1;
+}
+.section-3 a{
+    color: hsl(170, 45%, 43%);
+}
+.pre-section-3{
+    background-image: url(images/bg-curve-desktop.svg);
+    height: 100px;
+    background-size: cover;
+}
+.inner-section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+}
+.sub-inner-section{
+    display: flex;
+}
+.sub-inner-section img{
+    width: 25%;
+    border-radius: 100%;
+}
+/* section 4 */
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(238, 22%, 44%);
+    padding: 20px 30px;
+    color: white;
+}
+.section-4>div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+/* section 5 */
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(243, 87%, 12%);
+    padding: 20px 30px;
+    color:white
+}
+.section-5 .one img{
+    width: 10%;
+}
+.section-5 .logo{
+    width: 100%;
+}
+.section-5 ul{
+    list-style: none;
+}
+.section-5 ul.social-list{
+    display: flex;
+}
